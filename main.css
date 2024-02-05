@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    background-color: antiquewhite;
+    width: 800px;
+    border-collapse: collapse;
+
+}
+
+thead th {
+    background-color: green;
+    color: #fff;
+    text-align: left;
+    width: 25%;
+
+}
+
+th {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+tr {
+
+    height: 48px;
+}
+
+tbody {
+    text-align: left;
+
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+td {
+    font-size: 18px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f8f9fa;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dee2e6;
+}
